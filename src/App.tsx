@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { CourseProvider } from './contexts/CourseContext';
 import { Header } from './components/Header';
@@ -25,7 +25,7 @@ function PrivateRoute({ children }: { children: React.ReactNode }) {
 
 function AppContent() {
   return (
-    <Router>
+    <Router basename="/tutor-lessons-management">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
