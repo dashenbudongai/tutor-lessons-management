@@ -25,7 +25,7 @@ function PrivateRoute({ children }: { children: React.ReactNode }) {
 
 function AppContent() {
   return (
-    <Router basename="/tutor-lessons-management">
+    <Router basename="/">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
