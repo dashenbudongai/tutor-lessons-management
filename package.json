@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dashenbudongai.github.io/tutor-lessons-management",
+  "homepage": "https://dashenbudongai.github.io/tutor-lessons-management/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
